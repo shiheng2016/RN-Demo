@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/6/8.
+ * Created by Shimo on 2018/6/8.
  */
 import React from 'react';
 import {StyleSheet, Text, View, FlatList, RefreshControl, TouchableOpacity, Image, AsyncStorage} from 'react-native';

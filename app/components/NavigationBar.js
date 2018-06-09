@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/5/29.
+ * Created by Shimo on 2018/5/29.
  * 状态栏NavigationBar的属性化，可传参定制。
  */
 import React from 'react';

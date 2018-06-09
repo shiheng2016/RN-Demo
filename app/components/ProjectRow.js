@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/6/5.
+ * Created by Shimo on 2018/6/5.
  * 行组件ProjectRow的实现。
  * 行组件ProjectRow的数据展示，数据格式要一致。
  */

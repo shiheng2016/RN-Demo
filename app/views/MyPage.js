@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/6/5.
+ * Created by Shimo on 2018/6/5.
  * 挂载我的页面MyPage。
  */
 import React from 'react';

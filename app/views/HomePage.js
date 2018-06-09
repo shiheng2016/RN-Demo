@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/5/29.
+ * Created by Shimo on 2018/5/29.
  * 分离页面组件，创建组件代码模板。
  */
 import React from 'react';

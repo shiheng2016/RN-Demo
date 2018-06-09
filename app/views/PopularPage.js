@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/5/29.
+ * Created by Shimo on 2018/5/29.
  * PopularPage的顶部状态栏实现。
  * FlatList组件数据加载过渡效果。
  *

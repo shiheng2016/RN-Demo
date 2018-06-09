@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/6/5.
+ * Created by Shimo on 2018/6/5.
  * 复习状态栏的使用，导航器goBack的使用。
  * 自定义分类组件实现。
  */

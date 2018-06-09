@@ -1,5 +1,5 @@
 /**
- * Created by Song on 2018/5/29.
+ * Created by Shimo on 2018/5/29.
  * 从前的Navigator是如何跳转页面的。
  */
 import React, {Component} from 'react';
