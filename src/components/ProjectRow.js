@@ -34,7 +34,7 @@ export default class ProjectRow extends React.Component {
                         <Text>Star 星：</Text>
                         <Text>{items.stargazers_count}</Text>
                     </View>
-                    <Image source={require("../../app/asset/images/ic_unstar_transparent.png")} style={{width:22,height:22}}/>
+                    <Image source={require("../asset/images/ic_unstar_transparent.png")} style={{width:22,height:22}}/>
                 </View>
 
             </View>

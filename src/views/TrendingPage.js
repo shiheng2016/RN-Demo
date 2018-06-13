@@ -11,7 +11,7 @@ import TrendingProjectRow from "../components/TrendingProjectRow"
 import ProjectDetails from './ProjectDetails'
 
 
-const popular_def_lans = require('../../app/data/popular_def_lans.json');
+const popular_def_lans = require('../data/popular_def_lans.json');
 
 //包含两块内容，状态栏（静），滚动视图（动）
 export default class PopularPage extends React.Component {
@@ -29,7 +29,7 @@ export default class PopularPage extends React.Component {
     loadLanguages = ()=>{
         AsyncStorage.getItem('custom_key')
             .then((value)=>{
-                alert(value);
+                // alert(value);
                 if(value != null){
                     this.setState({languages:JSON.parse(value)});
                 }

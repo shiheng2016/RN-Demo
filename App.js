@@ -5,13 +5,13 @@
  * 代码拆分，便于扩展。
  */
 
-import React, {Component} from 'react';
+import React from 'react';
 import {AppRegistry, StyleSheet} from 'react-native';
 
-import Root from './app/views/Root'
+import Root from './src/views/Root'
 
 
-export default class MyApp extends Component {
+export default class MyApp extends React.Component {
     render() {
         return (
             <Root />

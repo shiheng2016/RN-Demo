@@ -29,7 +29,7 @@ export default class ProjectDetails extends React.Component {
             <TouchableOpacity
                 activeOpacity={0.7}
                 onPress={this.handleBack}>
-                <Image source={require('../../app/asset/images/ic_arrow_back_white_36pt.png')} style={{width:24,height:24}}/>
+                <Image source={require('../asset/images/ic_arrow_back_white_36pt.png')} style={{width:24,height:24}}/>
             </TouchableOpacity>
         </View>;
     };
@@ -38,13 +38,13 @@ export default class ProjectDetails extends React.Component {
             <TouchableOpacity activeOpacity={0.5}>
                 <Image
                     style={{width:20,height:20,marginRight:10,tintColor:'#FFF'}}
-                    source={require('../../app/asset/images/ic_share.png')}/>
+                    source={require('../asset/images/ic_share.png')}/>
             </TouchableOpacity>
 
             <TouchableOpacity activeOpacity={0.5}>
                 <Image
                     style={{width:20,height:20,marginRight:10,tintColor:'#FFF'}}
-                    source={require('../../app/asset/images/ic_unstar_transparent.png')}/>
+                    source={require('../asset/images/ic_unstar_transparent.png')}/>
             </TouchableOpacity>
         </View>;
     };

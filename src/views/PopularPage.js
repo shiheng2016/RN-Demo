@@ -15,7 +15,7 @@ import NavigationBar from '../components/NavigationBar'
 import ProjectRow from '../components/ProjectRow'
 import ProjectDetails from './ProjectDetails';
 
-const popular_def_lans = require('../../app/data/popular_def_lans.json');
+const popular_def_lans = require('../data/popular_def_lans.json');
 
 //添加滚动列表react-native-scrollable-tab-view。
 
@@ -40,13 +40,13 @@ export default class PopularPage extends React.Component {
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
                 <TouchableOpacity
                     activeOpacity={0.7}>
-                    <Image source={require('../../app/asset/images/ic_search_white_48pt.png')}
+                    <Image source={require('../asset/images/ic_search_white_48pt.png')}
                            style={{width: 24, height: 24}}/>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                     activeOpacity={0.7}>
-                    <Image source={require('../../app/asset/images/ic_more_vert_white_48pt.png')}
+                    <Image source={require('../asset/images/ic_more_vert_white_48pt.png')}
                            style={{width: 24, height: 24}}/>
                 </TouchableOpacity>
             </View>
@@ -56,7 +56,7 @@ export default class PopularPage extends React.Component {
     loadLanguages = () => {
         AsyncStorage.getItem('custom_key')
             .then((value) => {
-                alert(value);
+                // alert(value);
                 if (value != null) {
                     this.setState({languages: JSON.parse(value)});
                 }
@@ -147,7 +147,7 @@ class PopularTab extends React.Component {
         fetch(`https://api.github.com/search/repositories?q=${this.props.tabLabel}&sort=stars`) //动态列表
             .then(response => response.json())
             .then(json => {
-                console.log(json);
+                // console.log(json);
                 //更新dataSource
                 this.setState({
                     dataSource: json.items,

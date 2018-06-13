@@ -44,7 +44,7 @@ export default class TrendingProjectRow extends React.Component {
                                 <Text>星：</Text>
                                 <Text>{item.meta}</Text>
                             </View>
-                            <Image source={require("../../app/asset/images/ic_unstar_transparent.png")} style={{width:22,height:22}}/>
+                            <Image source={require("../asset/images/ic_unstar_transparent.png")} style={{width:22,height:22}}/>
 
                         </View>
                     </View>

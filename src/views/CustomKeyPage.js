@@ -10,7 +10,7 @@ import CheckBox from "react-native-check-box";
 import NavigationBar from '../components/NavigationBar'
 import ArrayUtils from "../components/ArrayUtils";
 
-const popular_def_lans = require('../../app/data/popular_def_lans.json');
+const popular_def_lans = require('../data/popular_def_lans.json');
 
 
 export default class CustomKeyPage extends React.Component {
@@ -57,7 +57,7 @@ export default class CustomKeyPage extends React.Component {
             <TouchableOpacity
                 activeOpacity={0.7}
                 onPress={this.doBack}>
-                <Image source={require('../../app/asset/images/ic_arrow_back_white_36pt.png')}
+                <Image source={require('../asset/images/ic_arrow_back_white_36pt.png')}
                        style={{width: 24, height: 24}}/>
             </TouchableOpacity>
         </View>;
@@ -65,7 +65,7 @@ export default class CustomKeyPage extends React.Component {
     handleClick = (item) => {
         item.checked = !item.checked;
         this.setState({isModified: true});//修改了
-    }
+    };
     renderViews = () => {
         let len = this.state.data.length;
         let views = [];  //要绘制的所有多选框，装入views数组
@@ -95,9 +95,9 @@ export default class CustomKeyPage extends React.Component {
             onClick={() => this.handleClick(item)}
             leftText={item.name}
             isChecked={item.checked}
-            unCheckedImage={<Image source={require('../../app/asset/images/ic_check_box_outline_blank.png')}
+            unCheckedImage={<Image source={require('../asset/images/ic_check_box_outline_blank.png')}
                                    style={styles.checkbox}/>}
-            checkedImage={<Image source={require('../../app/asset/images/ic_check_box.png')}
+            checkedImage={<Image source={require('../asset/images/ic_check_box.png')}
                                  style={styles.checkbox}/>}
         />
     };
